@@ -183,3 +183,50 @@
 .schedule-page {
   display: none;
 }
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .schedule-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .schedule-time {
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .btn-hero {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .speaker-image {
+    height: 200px;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 992px) {
+  .hero-section {
+    min-height: 400px;
+  }
+
+  .speaker-card {
+    margin-bottom: 1.5rem;
+  }
+
+  .city-image {
+    height: 250px;
+  }
+}
